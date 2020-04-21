@@ -1,0 +1,22 @@
+INSERT INTO blogful_articles (title, content,date_published)
+    VALUES 
+    ('first post','hello this is my first post', now() - '21 days'::INTERVAL),
+    ('second post','hello this is my 2nd post', now() - '20 days'::INTERVAL),
+    ('third post','hello this is my 3rd post', now() - '19 days'::INTERVAL),
+    ('fourth post','hello this is my 4th post', now() - '18 days'::INTERVAL),
+    ('fifth post','hello this is my 5th post', now() - '17 days'::INTERVAL),
+    ('sixth post','hello this is my 6th post', now() - '16 days'::INTERVAL),
+    ('seventh post','hello this is my 7th post', now() - '15 days'::INTERVAL),
+    ('eighth post','hello this is my 8th post', now() - '14 days'::INTERVAL),
+    ('ninth post','hello this is my 9th post', now() - '13 days'::INTERVAL),
+    ('tenth post','hello this is my 10th post', now() - '12 days'::INTERVAL),
+    ('eleventh post','hello this is my 11th post', now() - '11 days'::INTERVAL),
+    ('twelfth post','hello this is my 12th post', now() - '10 days'::INTERVAL),
+    ('thirteenth post','hello this is my 13th post', now() - '9 days'::INTERVAL),
+    ('fourteenth post','hello this is my 14th post', now() - '8 days'::INTERVAL),
+    ('fifteenth post','hello this is my 15th post', now() - '7 days'::INTERVAL),
+    ('sixteenth post','hello this is my 16th post', now() - '6 days'::INTERVAL),
+    ('seventeenth post','hello this is my 17th post', now() - '5 days'::INTERVAL),
+    ('eighteenth post','hello this is my 18th post', now() - '4 days'::INTERVAL),
+    ('nineteenth post','hello this is my 19th post', now() - '3 days'::INTERVAL),
+    ('twentieth post','hello this is my 20th post', now() - '2 days'::INTERVAL);
